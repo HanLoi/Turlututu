@@ -44,27 +44,28 @@ nav li {
 }
 
 .middle {
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 10%;
+    display: flex;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 7%;
     padding-bottom: 10%;
-    background-color: #1e93cc;
-    width: auto;
+    background-color: #1e93cc; 
+    margin: auto; 
 }
 
 .centre {
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 86vw;
-    height: 300;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    align-content: space-around;
+    align-content: space-between;
 }
 
 .a {
-    width: 50 px;
-    color: white;
-}
-
-.logo img {
-    width: 20px;
-
+    display: flex;
+    align-content: space-around;
+    align-content: space-between;
 }
